@@ -1,0 +1,140 @@
+
+.coba-input {
+    background-color: #176f92;
+     min-height: 650px;
+     padding: 50px;
+     position: relative;
+     overflow: scroll;
+     margin-bottom: 20px;
+     box-sizing: border-box;
+ }
+ 
+ .statBack {
+     background-color: black;
+     width: 100%;
+     padding: 5px;
+     position: relative;
+     margin-top: -50px;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 100px;
+     transition: 0.5s;
+     box-sizing: border-box;
+ }
+ 
+ .chatStat {
+     /* display: none; */
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     transition: 0.5s;
+     margin-left: 30px;
+     display: inline;
+ }
+
+ .chatTitle {
+     color: white;
+     position: absolute;
+     left: 500px;
+     top: 0;
+     font-size: 30px;
+     font-weight: 600;
+     font-family: cursive;
+     text-shadow: 0 4px 3px 1px #000;
+     font-style: italic;
+ }
+ 
+ .offStat {
+     display: none;
+     color: white;
+     font-weight: bold;
+     transition: 0.5s;
+ }
+ 
+ .inputin1, .inputin2, .tombolInput, .tombolInput2 {
+     z-index: 3;
+ }
+ 
+ /* inpput */
+ .inputin1 {
+     margin-left: 100px;
+     padding: 10px;
+     width: 450px;
+     position: absolute;
+     bottom: 10px;
+     right: 150px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     outline: none;
+ }
+
+ .inputin2 {
+     padding: 10px;
+     width: 450px;
+     position: absolute;
+     bottom: 10px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin-left: 30px;
+     left: 130px;
+     outline: none;
+ }
+
+ .tombolInput {
+     background-color: black;
+     padding: 10px;
+     color: white;
+     display: inline-block;
+     margin-left: 5px;
+     position: absolute;
+     bottom: 10px;
+     width: 100px;
+     text-align: center;
+     right: 20px;
+ }
+ 
+ .tombolInput:hover {
+     background-color: #3f1a1a;
+     cursor: pointer;
+ }
+ 
+ .tombolInput2 {
+     background-color: black;
+     padding: 10px;
+     color: white;
+     display: inline-block;
+     margin-left: 5px;
+     position: absolute;
+     bottom: 10px;
+     left: 20px;
+     width: 100px;
+     text-align: center;
+ }
+ 
+ .tombolInput2:hover {
+     background-color: #3f1a1a;
+     cursor: pointer;
+ }
+ 
+ 
+ .textNode {
+     margin-left: 30px;
+     margin-top: 40px;
+     font-weight: 500;
+     font-size: 18px;
+     padding: 10px;
+     background-color: black;
+     color: white;
+     display: block;
+     width: 500px;
+ }
+ 
+ .textNode2 {
+     margin-top: 40px;
+     margin-left: 700px;
+     background-color: #fff;
+     color: black;
+     padding: 10px;
+     display: inline-block;
+     width: 500px;
+ }
+ 
+ /* ------------- */
+ 
